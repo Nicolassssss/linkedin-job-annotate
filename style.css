@@ -1,0 +1,37 @@
+.my-job-annotate-box {
+    position: absolute;
+    z-index: 9999;
+    background: #fffbe7;
+    border: 1px solid #c9c9a3;
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+    top: 50px;
+    left: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+}
+.my-job-float-note {
+    position: absolute;
+    z-index: 9999;
+    background: #e3effa;
+    border: 1px solid #7a9bc7;
+    padding: 8px;
+    border-radius: 6px;
+    top: 50px;
+    left: 20px;
+    min-width: 180px;
+    max-width: 260px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.06);
+}
+.my-job-annotate-btn {
+    background: #f3ad34;
+    border: none;
+    border-radius: 4px;
+    color: #2d2d2d;
+    padding: 3px 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.my-job-annotate-btn:hover {
+    background: #ffd45c;
+}
